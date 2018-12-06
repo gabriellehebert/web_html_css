@@ -1,0 +1,126 @@
+html{
+	background: url("../pictures/teslas.jpg");
+	-webkit-background-size:cover;
+	-moz-background-size:cover;
+	-o-background-size:cover;
+	background-size:cover;
+	font-family: 'Raleway', sans-serif;
+}
+#container
+{
+	margin:auto;
+	width: 1300px;
+}
+
+#logo img
+{
+	width:150px;
+	float:left;
+	position:absolute;
+}
+
+#left_nav_buttons
+{
+	float:left;
+	margin-left: 205px;
+}
+
+#right_nav_buttons
+{
+	margin-left: 805px;
+	font-size:.8em;
+}
+
+.nav_button
+{
+	color:white;
+	text-decoration: none;
+	margin-left:25px;
+}
+
+#content
+{
+	margin-top: 25%;
+	margin-left: auto;
+	margin-right:auto;
+	width:50%;
+	padding:10px;
+}
+
+#content #banner
+{
+	display: block;
+	margin-left: auto;
+	margin-right:auto;
+	width:300px;
+}
+
+#content #marketing_content
+{
+	margin-top: 20px;
+	text-align:center;
+	color:white;
+}
+
+#line_1
+{
+	font-size: 1.5em;
+	margin-bottom: 10px;
+}
+
+#line_2
+{
+	font-size: .9em;
+}
+
+#buttons
+{
+	text-align:center;
+	margin-top: 40px;
+}
+
+.button
+{
+	margin-left: 20px;
+	margin-right:20px;
+	background-color: black;
+	color:white;
+	padding: 10px 24px 10px 24px;
+	max-width:30px;
+	border:1px solid transparent; /*allows for no jumping when adding hovering border effect*/
+}
+
+#buttons a
+{
+	text-decoration: none;
+	font-size:0.9em;
+}
+
+.button:hover
+{
+	border:1px solid white;
+}
+
+#footer
+{
+	position:absolute;
+	bottom: 0;
+	width:1300px;
+	height:30px;
+	text-align: center;
+}
+
+.footer_link
+{
+	color:white;
+	text-decoration:none;
+	margin-left:25px;
+	font-size:.8em;
+}
+
+#flag
+{
+	width:20px;
+	margin-bottom: -5px;	
+}
+

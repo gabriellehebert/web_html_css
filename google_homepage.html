@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Google Homepage</title>
+	<link href="css/google_hp_stylesheet.css" rel="stylesheet">
+</head>
+
+<body>
+	<header>
+		<ul id="right_header">
+			<li><a href="#">Gmail</a></li><!--links-->
+			<li><a href="#">Images</a></li>
+			<li><input type="button" id="sign_in" value="Sign In"/></li><!--button-->
+		</ul>
+<!--add javascript-->
+		<script type="text/javascript">
+			function focus()
+			{
+				var search_box=document.getElementById("search_bar");
+				search_box.focus();
+			}	
+			onload=focus;
+		</script>
+	</header>
+	
+	<div id="main">
+		<div id="logo_pic">
+			<img src="pictures/google_logo.jpg" width="400"/>
+		</div>
+
+		<div id="search_border">
+			<input id="search_bar" type="text" name="search"/>
+		</div>
+
+		<div id="buttons">
+			<input type="button" class="button" name="google" value="Google Search"/>
+			<input type="button" class="button" name="google" value="I'm Feeling Lucky"/>
+		</div>
+	</div>
+
+	<footer>
+		<ul id="left_footer">
+			<li><a href="#">Advertising</a></li>
+			<li><a href="#">Business</a></li>
+			<li><a href="#">About</a></li>
+		</ul>
+		<ul id="right_footer">
+			<li><a href="#">Privacy</a></li>
+			<li><a href="#">Terms</a></li>
+			<li><a href="#">Settings</a></li>
+		</ul>
+	</footer>
+</body>
+</html>
